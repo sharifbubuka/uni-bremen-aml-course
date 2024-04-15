@@ -1,0 +1,31 @@
+name: AML_Tut
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.8
+  - pip=23.1
+  - cpuonly=2.0
+  - pytorch=2.0.0
+  - tensorboard=2.12.2
+  - torchaudio=2.0.0
+  - torchvision=0.15.0
+  - pip:
+      - notebook==6.5.4
+      - scikit-learn==1.2.2
+      - scipy==1.9.1
+      - seaborn==0.12.2
+      - setuptools==67.6.1
+      - numpy==1.24.2
+      - pandas==2.0.0
+      - tqdm==4.65.0
+      - ipython==8.12.0
+      - ipykernel==6.22.0
+      - ipywidgets==8.0.6
+      - jupyterlab==3.6.3
+      - imblearn==0.0
+      - opencv-python==4.7.0.72
+      - scikit-image==0.20.0
+      - lightning==2.0.1.post0
+prefix: /opt/conda
